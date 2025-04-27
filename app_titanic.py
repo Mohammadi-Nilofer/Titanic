@@ -12,7 +12,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open('RFC_titanic.pkl', 'rb') as file:
+with open('model_titanic.pkl', 'rb') as file:
     model = pickle.load(file)
 
 st.title("Titanic Survival Prediction App")
